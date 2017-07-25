@@ -4,37 +4,31 @@ nop:
     body: '''
     nop
     '''
-
 halt:
     prefix: "halt"
     body: '''
     halt
     '''
-
 rrmovq:
     prefix: "rrmovq"
     body: '''
     rrmovq %$1, %$2
     '''
-
 irmovq:
     prefix: "irmovq"
     body: '''
     irmovq \$$1, %$2
     '''
-
 rmmovq:
     prefix: "rmmovq"
     body: '''
     rmmovq %$1, $2(%$3)
     '''
-
 mrmovq:
     prefix: "mrmovq"
     body: '''
     mrmovq $1(%$2), %$3
     '''
-
 addq:
     prefix: "addq"
     body: '''
@@ -45,79 +39,66 @@ subq:
     body: '''
     subq %$1, %$2
     '''
-
 andq:
     prefix: "andq"
     body: '''
     andq %$1, %$2
     '''
-
 xorq:
     prefix: "xorq"
     body: '''
     xorq %$1, %$2
     '''
-
 jmp:
     prefix: "jmp"
     body: '''
     jmp $1
     '''
-
 jl:
     prefix: "jl"
     body: '''
     jl $1
     '''
-
 jle:
     prefix: "jle"
     body: '''
     jle $1
     '''
-
 je:
     prefix: "je"
     body: '''
     je $1
     '''
-
 jne:
     prefix: "jne"
     body: '''
     jne $1
     '''
-
 jge:
     prefix: "jge"
     body: '''
     jge $1
     '''
-
 jg:
     prefix: "jg"
     body: '''
     jg $1
     '''
-
 call:
      prefix: "call"
      body: '''
      call $1
      '''
-
 ret:
     prefix: "ret"
     body: '''
     ret $1
     '''
-
 pushq:
     prefix: "pushq"
     body: '''
     pushq %$1
     '''
-
 popq:
     prefix: "popq"
     body: '''
