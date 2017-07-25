@@ -85,10 +85,10 @@
         jg $1
         '''
     call:
-         prefix: "call"
-         body: '''
-         call $1
-         '''
+        prefix: "call"
+        body: '''
+        call $1
+        '''
     ret:
         prefix: "ret"
         body: '''
@@ -103,4 +103,35 @@
         prefix: "popq"
         body: '''
         popq %$1
+        '''
+
+    pos:
+        prefix: "\.pos"
+        body: '''
+        .pos $1
+        '''
+    align:
+        prefix: "\.align"
+        body: '''
+        .align $1
+        '''
+    quad:
+        prefix: "\.quad"
+        body: '''
+        .quad 0x$0
+        '''
+    long:
+        prefix: "\.long"
+        body: '''
+        .long 0x$0
+        '''
+    word:
+        prefix: "\.word"
+        body: '''
+        .word 0x$0
+        '''
+    byte:
+        prefix: "\.byte"
+        body: '''
+        .byte $0
         '''
