@@ -53,3 +53,4 @@ patterns: [
         name: "label.y86-64"
     }
 ]
+scopeName: "source.y86-64"
