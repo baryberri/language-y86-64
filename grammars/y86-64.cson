@@ -37,4 +37,19 @@ patterns: [
         match: ")"
         name: "parenthesis.closing.y86-64"
     }
+
+    {
+        match: ".pos \d+"
+        name: "position.y86-64"
+    }
+
+    {
+        match: ".align \d+"
+        name: "align.y86-64"
+    }
+
+    {
+        match: "[A-Za-z]+:"
+        name: "label.y86-64"
+    }
 ]
