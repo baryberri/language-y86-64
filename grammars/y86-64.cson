@@ -20,7 +20,7 @@ patterns: [
 
     {
         match: "(nop|halt|rrmovq|irmovq|rmmovq|mrmovq|addq|subq|andq|xorq|jmp|jl|jle|je|jne|jge|jg|call|ret|pushq|popq)"
-        name: "instructions.y86-64"
+        name: "keyword.other.y86-64"
     }
 
     {
