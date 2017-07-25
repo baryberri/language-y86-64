@@ -52,5 +52,10 @@ patterns: [
         match: "[A-Za-z]+:"
         name: "label.y86-64"
     }
+
+    {
+        match: "\\b(0x)?([+-]?\\d[\\d_]*|(\\d*|[+-])?'([dD][\\d_]+|[hH][0-9a-fA-F_]+|[oO][0-7_]+|[bB][01_]+))\\b"
+        name: "immediate.y86-64"
+    }
 ]
 scopeName: "source.y86-64"

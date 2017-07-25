@@ -2,4 +2,4 @@
   editor:
     commentStart: "(//|#|/\\*)"
     commentEnd: "\\*/"
-    increaseIndentPattern: "^(/\\*|\\d+|[A-Za-z]+:)$"
+    increaseIndentPattern: "^(\\d+|[A-Za-z]+:)$"
