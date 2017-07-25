@@ -13,8 +13,8 @@ patterns: [
     }
 
     {
-        begin: "/\*"
-        end: "\*/"
+        begin: "/\\*"
+        end: "\\*/"
         name: "comment.block.y86-64"
     }
 
@@ -29,22 +29,22 @@ patterns: [
     }
 
     {
-        match: "\("
+        match: "\\("
         name: "parenthesis.opening.y86-64"
     }
 
     {
-        match: "\)"
+        match: "\\)"
         name: "parenthesis.closing.y86-64"
     }
 
     {
-        match: "\.pos \d+"
+        match: "\\.pos \\d+"
         name: "position.y86-64"
     }
 
     {
-        match: "\.align \d+"
+        match: "\\.align \\d+"
         name: "align.y86-64"
     }
 
