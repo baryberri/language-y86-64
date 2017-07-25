@@ -1,0 +1,6 @@
+".source.y86-64":
+  editor:
+    commentStart: "(//|#|/\\*)"
+    commentEnd: "\\*/"
+    increaseIndentPattern: "^(.pos \d+|.align \d+|[A-Za-z]+:)$"
+    decreaseIndentPattern: "^$"
