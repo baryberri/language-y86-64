@@ -13,8 +13,8 @@ patterns: [
     }
 
     {
-        begin: "/\\*"
-        end: "\\*/"
+        begin: "/\*"
+        end: "\*/"
         name: "comment.block.y86-64"
     }
 
