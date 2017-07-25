@@ -1,0 +1,20 @@
+{
+  "name": "language-y86-64",
+  "version": "1.0.0",
+  "description": "Y86-64 Assembly Language Atom Support",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baryberri/language-y86-64.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baryberri/language-y86-64/issues"
+  },
+  "license": "MIT",
+  "readme": "Y86-64 Assembly Language Atom Support",
+  "readmeFilename": "README.md",
+  "folders": []
+}
