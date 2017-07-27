@@ -29,23 +29,18 @@ patterns: [
     }
 
     {
-        match: "\\.pos"
-        name: "keyword.other.y86-64"
-    }
-
-    {
-        match: "\\.align"
-        name: "keyword.other.y86-64"
+        match: "\\.(pos|align)"
+        name: "position.marker.y86-64"
     }
 
     {
         match: "\\.(quad|long|word|byte)"
-        name: "keyword.other.y86-64"
+        name: "length.marker.y86-64"
     }
 
     {
         match: "[A-Za-z]+:"
-        name: "label.y86-64"
+        name: "keyword.other.y86-64"
     }
 
     {
