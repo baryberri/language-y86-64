@@ -39,7 +39,7 @@ patterns: [
     }
 
     {
-        match: "[A-Za-z]+:"
+        match: "[A-Za-z]+:*"
         name: "keyword.other.y86-64"
     }
 
