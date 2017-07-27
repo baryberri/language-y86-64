@@ -1,6 +1,6 @@
 {
   "name": "language-y86-64",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Y86-64 Assembly Language Atom Support",
   "engines": {
     "atom": "*"
