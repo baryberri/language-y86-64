@@ -133,5 +133,12 @@
     byte:
         prefix: "byte"
         body: '''
-        .byte $0
+        .byte 0x$0
+        '''
+    comment:
+        prefix: "/\\*"
+        body: '''
+        /*
+        $0
+        */
         '''
