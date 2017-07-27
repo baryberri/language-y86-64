@@ -135,10 +135,3 @@
         body: '''
         .byte 0x$0
         '''
-    comment:
-        prefix: "/\\*"
-        body: '''
-        /*
-        $0
-        */
-        '''
