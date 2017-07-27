@@ -49,7 +49,7 @@ patterns: [
     }
 
     {
-        match: "\\b\\$*(0x)?([+-]?\\d[\\d_]*|(\\d*|[+-])?'([dD][\\d_]+|[hH][0-9a-fA-F_]+|[oO][0-7_]+|[bB][01_]+))\\b"
+        match: "\\b(\\$)?(0x)?[+-]*[0-9A-Fa-f_]\\b"
         name: "constant.numeric.y86-64"
     }
 ]
