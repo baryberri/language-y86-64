@@ -104,6 +104,16 @@
         body: '''
         popq %$1
         '''
+    mtc0:
+        prefix: "mtc0"
+        body: '''
+        mtc0 %$1, $$2
+        '''
+    mfc0:
+        prefix: "mfc0"
+        body: '''
+        mfc0 %$1, $$2
+        '''
 
     pos:
         prefix: "pos"
