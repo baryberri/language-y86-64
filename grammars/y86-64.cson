@@ -20,32 +20,27 @@ patterns: [
 
     {
         match: "(nop|halt|rrmovq|irmovq|rmmovq|mrmovq|addq|subq|andq|xorq|jmp|jl|jle|je|jne|jge|jg|call|ret|pushq|popq)"
-        name: "keyword.other.y86-64"
+        name: "support.function.system.console.tasks.y86-64"
     }
 
     {
         match: "(%rax|%rcx|%rdx|%rbx|%rsp|%rbp|%rsi|%rdi|%r8|%r9|%r10|%r11|%r12|%r13|%r14)"
-        name: "registers.y86-64"
-    }
-
-    {
-        match: "\\("
-        name: "parenthesis.opening.y86-64"
-    }
-
-    {
-        match: "\\)"
-        name: "parenthesis.closing.y86-64"
+        name: "string.quoted.double.y86-64"
     }
 
     {
         match: "\\.pos \\d+"
-        name: "position.y86-64"
+        name: "keyword.other.y86-64"
     }
 
     {
         match: "\\.align \\d+"
-        name: "align.y86-64"
+        name: "keyword.other.y86-64"
+    }
+
+    {
+        match: "\\.(quad|long|word|byte)"
+        name: "keyword.other.y86-64"
     }
 
     {
@@ -54,8 +49,8 @@ patterns: [
     }
 
     {
-        match: "\\b(0x)?([+-]?\\d[\\d_]*|(\\d*|[+-])?'([dD][\\d_]+|[hH][0-9a-fA-F_]+|[oO][0-7_]+|[bB][01_]+))\\b"
-        name: "immediate.y86-64"
+        match: "\\b($)?(0x)?([+-]?\\d[\\d_]*|(\\d*|[+-])?'([dD][\\d_]+|[hH][0-9a-fA-F_]+|[oO][0-7_]+|[bB][01_]+))\\b"
+        name: "constant.numeric.y86-64"
     }
 ]
 scopeName: "source.y86-64"
