@@ -19,7 +19,7 @@ patterns: [
     }
 
     {
-        match: "(nop|halt|rrmovq|irmovq|rmmovq|mrmovq|addq|subq|andq|xorq|jmp|jl|jle|je|jne|jge|jg|call|ret|pushq|popq)"
+        match: "(nop|halt|rrmovq|irmovq|rmmovq|mrmovq|addq|subq|andq|xorq|jmp|jl|jle|je|jne|jge|jg|call|ret|pushq|popq|mtc0|mfc0)"
         name: "support.function.system.console.tasks.y86-64"
     }
 
