@@ -49,7 +49,7 @@ patterns: [
     }
 
     {
-        match: "\\b(\\$)?(0x)?[+-]*[0-9A-Fa-f_]\\b"
+        match: "(\\$)?(0x)?[+-]*[0-9A-Fa-f_]"
         name: "constant.numeric.y86-64"
     }
 ]
